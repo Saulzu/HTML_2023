@@ -1,5 +1,50 @@
-.title{
-	font-family: cursive;
-	color
-}
-.h1
+	body{
+       	background-color: #E7F7D4;
+	margin: 0;
+	}
+
+	h1{
+	color: #7FBD32;
+	font-family: french script mt;
+	text-align: center;
+	font-size: 350%;
+	}
+
+	h2{
+	color: #a64dff;
+      	font-family: batang;
+	}
+
+	h3{
+	color: #a64dff;
+      	font-family: batang;
+	}
+
+	* {
+  	box-sizing: border-box;
+	}
+
+	/* Style the header */.header {
+  	background-color: #448D76;
+  	padding: 20px;
+  	text-align: center;
+	}
+
+	/* Style the top navigation bar */.topnav {
+  	overflow: hidden;
+  	background-color: #091D34;
+	}
+
+	/* Style the topnav links */.topnav a {
+  	float: left;
+  	display: block;
+  	color: #98CA32;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+	}
+
+	/* Change color on hover */.topnav a:hover {
+  	background-color: white;
+  	color: #98CA32;
+	}
