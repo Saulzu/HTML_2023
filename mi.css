@@ -19,32 +19,73 @@
 	color: #a64dff;
       	font-family: batang;
 	}
-
+	
 	* {
   	box-sizing: border-box;
 	}
-
-	/* Style the header */.header {
+	
+	/* Aplicar estilo al encabezado*/.header {
   	background-color: #448D76;
-  	padding: 20px;
+  	padding: 5px;
   	text-align: center;
 	}
-
-	/* Style the top navigation bar */.topnav {
+	
+	/* Aplicar estilo a la barra de navegación superior*/.topnav {
   	overflow: hidden;
   	background-color: #091D34;
 	}
-
-	/* Style the topnav links */.topnav a {
+	
+	/* Aplicar estilo a los vínculos de navegación superior */.topnav a {
   	float: left;
   	display: block;
   	color: #98CA32;
   	text-align: center;
-  	padding: 14px 16px;
+  	padding: 14px 128px;
   	text-decoration: none;
 	}
-
-	/* Change color on hover */.topnav a:hover {
+	
+	/* Cambiar el color al pasar el cursor*/.topnav a:hover {
   	background-color: white;
   	color: #98CA32;
+	}
+	
+	.btn {
+	background-color: #091D34;
+	color: white;
+	padding: 15px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	}
+
+	.menu1 {
+	position: relative;
+	display: inline-block;
+	}
+
+	.menu1-content {
+	display: none;
+	position: absolute;
+	background-color: #e6fff2;
+	min-width: 5px;
+	box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	}
+
+	.menu1-content a {
+	color: black;
+	padding: 5px 5px;
+	text-decoration: none;
+	display: block;
+	}
+
+	.menu1-content a:hover {background-color: #e6fff2}
+
+	.menu1:hover .menu1-content {
+	display: block;
+	}
+
+	.menu1:hover .btn {
+	background-color: #ff0000;
+	padding: 5px 5px;
 	}
